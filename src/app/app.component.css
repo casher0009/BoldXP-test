@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+section div {
+  width: 18%;
+  height: 30vh;
+  border: 1px solid black;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+.black {
+  background-color: black !important;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container a {
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  font-size: 30px;
+  width: 3%;
+  align-self: center;
+}
+
+.pink {
+  background-color: pink !important;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: pink !important;
+}
+
+button {
+  width: 20%;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<nav>
+<h1>{{title}}</h1>
+<h2>Prueba de maquetado + css + javascript</h2><br>
+<button (click)="restart()">Empezar de nuevo</button>
+</nav>
+<hr><br>
+
+<section id="bloques">
+  <div (click)=black(red) id="red" ></div><div (click)=black(blue) id="blue"></div><div (click)=black(green) id="green"></div>
+  <div *ngIf="pink>=1" id="pink0" class="pink" (click)=circle(pink0)></div>
+  <div *ngIf="pink>=2" id="pink1" class="pink" (click)=circle(pink1)></div>
+  <div *ngIf="pink>=3" id="pink2" class="pink" (click)=circle(pink2)></div>
+  <div *ngIf="pink>=4" id="pink3" class="pink" (click)=circle(pink3)></div>
+  <div *ngIf="pink>=5" id="pink4" class="pink" (click)=circle(pink4)></div>
+</section>
+<div class="container">
+  <h2>agregar otro bloque</h2>
+  <a (click)="newBlock()" >+</a><br>
+
+</div>
